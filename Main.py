@@ -12,10 +12,13 @@ with col1:
 with col2:
     st.title("Mohamed Ilyan")
     content = """
-    Hi, I am Ilyan! I am a Python programmer, Chemical Engineer and Data
+    Hi, I am Ilyan! I am a Chemical Engineer, Python programmer and Data
     analytics enthusiast. I graduated in 2021 with a Master of Science in Chemical
-    Engineering from the National University of Singapore in Singapore with a focus
-    on process design, project engineering and, coding for data analysis and simulation.
+    Engineering from the National University of Singapore with a focus
+    on process design, project engineering and, coding for data analysis and simulation. 
+    Together with my Bachelor of Science in Biotech/Biochem, I was exposed to a lot of 
+    R&D which actually translates really well for business development with an accument for
+    Business improvement and for scaling of businesses.
     I have worked with organizations from various countries, such as Trust Your Water ME 
     to provide water solutions for hotels, industrial projects and residentials, 
     Biotech manufacturing at Geb Impact Technology Co. Ltd (Hong Kong), provide 
