@@ -7,13 +7,13 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("006 images/my_photo5.jpeg")
+    st.image("006 images/my_photo7.jpeg")
 
 with col2:
     st.title("Mohamed Ilyan")
     content = """
-    Hi, I am Ilyan! I am a Chemical Engineer, Python programmer and Data
-    analytics enthusiast. I graduated in 2021 with a Master of Science in Chemical
+    Hi, I am Ilyan! I am a Chemical Engineer, Python programmer and Data Science enthusiast. 
+    I graduated in 2021 with a Master of Science in Chemical
     Engineering from the National University of Singapore with a focus
     on process design, project engineering and, coding for data analysis and simulation. 
     I have worked with organizations from various countries, such as Trust Your Water ME 
