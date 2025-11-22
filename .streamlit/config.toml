@@ -1,0 +1,10 @@
+[theme]
+base="light"
+primaryColor="#5be8e6"
+font = "sans-serif"
+headingFont = "sans-serif"
+codeFont = "monospace"
+[theme.sidebar]
+font = "sans-serif"
+headingFont = "sans-serif"
+codeFont = "monospace"
