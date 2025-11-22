@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-col1, col2 = st.columns([1,3.5])
+col1, col2 = st.columns([1,2.5])
 
 with col1:
     st.image("images/ilyan_image.jpeg", width=300)
