@@ -1,5 +1,5 @@
 title,description,url,image
-Virtual You,"An extensive Agentic Application using React, FastAPI, MCP and MongoDB that serves as a virtual representive of yourself",https://github.com/ilyan146/openai_sdk_resume_assistant,17.png
+Virtual You,"An extensive Agentic RAG application using React, FastAPI, MCP and MongoDB that serves as a virtual representive of yourself",https://github.com/ilyan146/openai_sdk_resume_assistant,17.png
 Deep Research,Chatbot for doing Deep Research scouring through the internet by provoking further questions.,https://github.com/ilyan146/deep_search,10.png
 LangGraph Agentic Side Kick,An Agentic Sidekick made with LangGraph that can do your daily tasks for you using tools and API calls,https://github.com/ilyan146/langgraph_sidekick,14.png
 Hotel Booking Application,"A hotel booking program that displays, verifies and generates booking receipt with  the use of credit card.",https://github.com/ilyan146/Hotel_Booking_App_OOP/tree/master,5.png

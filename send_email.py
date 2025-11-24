@@ -14,3 +14,7 @@ def send_email(message):
     with smtplib.SMTP_SSL(host, port, context=context) as server:
         server.login(username, password)
         server.sendmail(username, receiver, message)
+
+
+if __name__ == "__main__":
+    send_email("Subject: Test Email from Python\n\nThis is a test email sent from a Python script.")

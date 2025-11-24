@@ -33,16 +33,17 @@ df = pd.read_csv("app_data.csv")
 
 col4, empty_column, col5 = st.columns([1.5, 0.5, 1.5])
 
-with col4:
-    for index, row in df[0:4].iterrows():
-        st.header(row["title"])
-        st.write(row["description"])
-        st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
-
-with col5:
-    for index, row in df[4:].iterrows():
-        st.header(row["title"])
-        st.write(row["description"])
-        st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
+for index, row in df.iterrows():
+    # Alternate between left (col4) and right (col5) columns
+    if index % 2 == 0:  # type: ignore
+        with col4:
+            st.header(row["title"])
+            st.write(row["description"])
+            st.image("images/" + row["image"])
+            st.write(f"[Source Code]({row['url']})")
+    else:  # Odd index -> right column
+        with col5:
+            st.header(row["title"])
+            st.write(row["description"])
+            st.image("images/" + row["image"])
+            st.write(f"[Source Code]({row['url']})")
